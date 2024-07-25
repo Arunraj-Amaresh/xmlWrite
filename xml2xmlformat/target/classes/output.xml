@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FIXML xmlns="http://www.finacle.com/fixml">
+	<Header>
+		<RequestHeader>
+			<MessageKey>
+				<RequestUUID>TIP-f0db643b-8ade-4b93-97bd-ab1be5e7444c</RequestUUID>
+				<ServiceRequestId>XferTrnAdd</ServiceRequestId>
+				<ServiceRequestVersion>10.2</ServiceRequestVersion>
+				<ChannelId>TIP</ChannelId>
+			</MessageKey>
+			<RequestMessageInfo>
+				<BankId>01</BankId>
+				<TimeZone>GMT+05:30</TimeZone>
+				<EntityId />
+				<EntityType />
+				<ArmCorrelationId />
+				<MessageDateTime>2019-02-11T17:12:45.169</MessageDateTime>
+			</RequestMessageInfo>
+		</RequestHeader>
+
+	</Header>
+	<Body>
+		<XferTrnAddRequest>
+			<XferTrnAddRq>
+				<XferTrnHdr>
+					<TrnType>T</TrnType>
+					<TrnSubType>BI</TrnSubType>
+				</XferTrnHdr>
+				<XferTrnDetail>this frist add<PartTrnRecList>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>106320225411003</AcctId>
+							</AcctId>
+							<CreditDebitFlg>C</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>100.0</amountValue>
+								<currencyCode>USD</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>1</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>109582560005521</AcctId>
+							</AcctId>
+							<CreditDebitFlg>D</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>500.0</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>2</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>109580169810001</AcctId>
+							</AcctId>
+							<CreditDebitFlg>C</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>500.0</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>3</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>109582560005521</AcctId>
+							</AcctId>
+							<CreditDebitFlg>D</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>90.0</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>4</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>109580125454001</AcctId>
+							</AcctId>
+							<CreditDebitFlg>C</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>90.0</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>5</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>109582560005521</AcctId>
+							</AcctId>
+							<CreditDebitFlg>D</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>750.0</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>6</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>109580169808001</AcctId>
+							</AcctId>
+							<CreditDebitFlg>C</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>750.0</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>7</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>109582560005521</AcctId>
+							</AcctId>
+							<CreditDebitFlg>D</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>135.0</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>8</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>109580125454001</AcctId>
+							</AcctId>
+							<CreditDebitFlg>C</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>135.0</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>9</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>109582560005521</AcctId>
+							</AcctId>
+							<CreditDebitFlg>D</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>7147.41</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>10</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>109582560005521</AcctId>
+							</AcctId>
+							<CreditDebitFlg>D</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>45.0</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>11</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>109580125481001</AcctId>
+							</AcctId>
+							<CreditDebitFlg>C</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>45.0</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>12</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>106320125995060</AcctId>
+							</AcctId>
+							<CreditDebitFlg>C</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>7147.41</amountValue>
+								<currencyCode>INR</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>13</SerialNum>
+						</PartTrnRec>
+						<PartTrnRec>
+							<AcctId>
+								<AcctId>106320225995060</AcctId>
+							</AcctId>
+							<CreditDebitFlg>D</CreditDebitFlg>
+							<TrnAmt>
+								<amountValue>100.0</amountValue>
+								<currencyCode>USD</currencyCode>
+							</TrnAmt>
+							<TrnParticulars>0958OTT190000012 CRE001</TrnParticulars>
+							<PartTrnRmks />
+							<ValueDt>2019-01-31T17:12:45.408</ValueDt>
+							<SerialNum>14</SerialNum>
+						</PartTrnRec>
+					</PartTrnRecList></XferTrnDetail>
+			</XferTrnAddRq>
+		</XferTrnAddRequest>
+	</Body>
+</FIXML>
